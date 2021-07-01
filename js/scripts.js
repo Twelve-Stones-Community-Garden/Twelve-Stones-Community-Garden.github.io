@@ -1,10 +1,12 @@
-/*!
-* Start Bootstrap - Business Casual v7.0.1 (https://startbootstrap.com/theme/business-casual)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
-*/
-// Highlights current date on contact page
-// window.addEventListener('DOMContentLoaded', event => {
-//     const listHoursArray = document.body.querySelectorAll('.list-hours li');
-//     listHoursArray[new Date().getDay()].classList.add(('today'));
-// })
+let facebookDiv = document.getElementById('.fb-block')
+const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+console.log('Im working')
+
+window.addEventListener('resize', logDimensions);
+
+function logDimensions(e) {
+  console.log(width)
+  console.log(height)
+}

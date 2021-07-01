@@ -60,7 +60,7 @@
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
-  
+
   .heavy-font {
     font-weight: 600;
   }
@@ -10903,19 +10903,11 @@
     padding-right: 2rem;
   }
 
-  .fb-container {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-
-  .fb-header-container{
-    justify-content: center;
-  }
-
-  .fb-header{
-    margin-top: 10%;
-  }
+.fb-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 
   .fb-page {
     display: flex;
