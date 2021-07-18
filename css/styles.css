@@ -10909,14 +10909,6 @@
     margin: auto;
   }
 
-  .fb-header-container{
-    justify-content: center;
-  }
-
-  .fb-header{
-    margin-top: 10%;
-  }
-
   .fb-page {
     display: flex;
     justify-content: center;
