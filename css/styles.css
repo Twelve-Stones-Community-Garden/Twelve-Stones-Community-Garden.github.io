@@ -10903,24 +10903,20 @@
     padding-right: 2rem;
   }
 
-<<<<<<< HEAD
   .fb-container {
     display: flex;
     justify-content: center;
     margin: auto;
   }
-=======
-.fb-container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
->>>>>>> beaf4d06a271aeda7d81c80201ab8758808dfefd
 
   .fb-page {
     display: flex;
     justify-content: center;
     margin: auto;
+  }
+
+  .spacer {
+    height: 2em;
   }
 
   #mainNav {
